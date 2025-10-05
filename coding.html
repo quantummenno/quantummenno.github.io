@@ -2,9 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta description="homepage">
-        <title>Quantum's Respectable Point of Interest</title>
-        <link rel="icon" type="image/x-icon" href="https://i.imgur.com/LtJ9XZf.png">
 
         <style>
             @font-face {
@@ -58,18 +55,6 @@
                 background-color: #BFD7EA;
             }
 
-            .divider {
-                position:relative;
-                float:left;
-                font-size:1em;
-                width:1px;
-                top: 10px;
-                height:30px;
-                margin-right:10px;
-                margin-left:10px;
-                background:linear-gradient(to bottom, #ccc, #eee);
-            }
-
             #page_header {
                 height: 50px;
                 background-color:#175072;
@@ -91,16 +76,31 @@
                 text-decoration: none;
             }
 
+            .logo {
+                background-image: url(https://i.imgur.com/LtJ9XZf.png);
+            }
+
+            .divider {
+                position:relative;
+                float:left;
+                font-size:1em;
+                width:1px;
+                top: 10px;
+                height:30px;
+                margin-right:10px;
+                margin-left:10px;
+                background:linear-gradient(to bottom, #ccc, #eee);
+            }
+
+            img {
+                display:block;
+            }
+
             .header_logo_symbol {
                 float:left;
             }
-
-            .header_image {
-                
-            }
         </style>
     </head>
-
     <body style="background-color: #0B3954;">
         <header id="page_header">
             <div class="header_logo">
@@ -109,7 +109,8 @@
             <nav class="header_links">
                 <a class="header_item" href="./index.html">Homepage</a>
                 <div class="divider"></div>
-                <a class="header_item"  href="./coding.html">Coding</a>
+                <a class="header_item"  href="#about me" About Me></a>
+                <a class="header_item"  href="#coding">Coding</a>
                 <a class="header_item"  href="#music">Music</a>
                 <a class="header_item"  href="#games">Games</a>
                 <a class="header_item"  href="#movies">Movies/TV</a>
@@ -118,12 +119,12 @@
         </header>
 
         <div class="body_wrapper">
-            <h1>Quantum's Respectable Point of Interest</h1>
-            <img class="header_image" src="https://derpicdn.net/img/2024/9/16/3443652/large.png" alt="Art of my purple my little pony original character: Starset" width="200">
-
-            <h2 id="about me"   class="section-header">About Me</h2>
+            <h2 class="section-header">Coding</h2>
+            <img src="https://derpicdn.net/img/view/2015/12/31/1056350.gif" alt="Art of my purple my little pony original character: Starset" width="200">
             <body>
-                Greetings! I'm Menno, but you can also call me Quantum. 
+                I love coding! I started learning through Khan Academy when I was around 10, but stopped after a bit.
+                I rediscovered my love for it during the python course for my chemistry bachelor, which is what drove me to pursue a
+                minor in computer science. I know C#, Python, a little bit of C++ and HTML/CSS, which I'm practicing by making this site.
             </body>
         </div>
     </body>
